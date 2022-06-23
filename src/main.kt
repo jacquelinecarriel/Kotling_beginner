@@ -2,12 +2,7 @@ import br.com.alura.bytebank.modelo.Endereco
 
 fun main() {
     println("inicio main")
-    try{
-        10/2
-    } catch (e:ArithmeticException){
-        println("AritmeticException foi pegada")
-    }
-    funcao1()
+    testaComportamentosConta()
     println("fim main")
 }
 
